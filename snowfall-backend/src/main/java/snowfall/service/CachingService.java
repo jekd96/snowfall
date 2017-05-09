@@ -23,7 +23,6 @@ public class CachingService {
         cachingDB();
     }
 
-
     private void cachingDB () throws URISyntaxException {
         Update update = botService.getUpdates();
         for (Result result : update.getResult()) {

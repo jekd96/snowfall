@@ -28,9 +28,6 @@ public class BotService {
     @Value("${telegram.bot}")
     private String botToken;
 
-    //Todo пока Id Сереги, в будущем поправить сервис что-бы отправлять группе лиц
-    private final Long chatId = 378560760L;
-
     /*
     * Получаем обновления
     */
