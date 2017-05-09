@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import snowfall.service.BotService;
 
+import java.net.URISyntaxException;
+
 @Component
 public class MainController {
 
@@ -19,8 +21,8 @@ public class MainController {
     public void initialize() {
     }
 
-    public void sendMessage() {
-        botService.sendMessage(message.getText());
+    public void sendMessage() throws URISyntaxException {
+        botService.sendMessageAllUsers(message.getText());
     }
 
 
