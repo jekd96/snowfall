@@ -17,7 +17,7 @@ public class BotService {
     private static final String botToken = "bot336412869:AAGB7L9fTMzLok2-wjWUNcd9Eowno6S6aCs";
 
     //Todo пока Id Сереги, в будущем поправить сервис что-бы отправлять группе лиц
-    private final Long chatId = 232104740L;
+    private final Long chatId = 378560760L;
 
     public void sendMessage(String message) {
         String method = "sendMessage";
