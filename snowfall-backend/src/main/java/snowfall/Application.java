@@ -7,12 +7,14 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @EntityScan
 @EnableAutoConfiguration
 @EnableAsync
 @EnableScheduling
 @Configuration
+@EnableWebMvc
 @SpringBootApplication
 public class Application   {
 
