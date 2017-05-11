@@ -28,7 +28,6 @@ public class CachingService {
         for (Result result : update.getResult()) {
             MockDB.createUser(result.getMessage().getChat());
         }
-
     }
 
 }

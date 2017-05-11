@@ -1,0 +1,17 @@
+.from-registration {
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 700px;
+}
+
+.from-registration-label {
+    width: 50px;
+}
+
+.form-registration-input {
+    width: 270px;
+}
+
+.request-button {
+    margin-top: 10px;
+}
